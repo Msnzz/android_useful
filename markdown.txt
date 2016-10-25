@@ -1,0 +1,102 @@
+1.斜体和粗体的使用。(Italics and Bold)
+(1)italic(斜体)
+    使用underscore(_)。
+    example:
+        _this_
+(2)bold(粗体)
+    使用two asterisks(**)
+    example:
+        **will**
+(3)组合使用，顺序无关，但是为了清晰些，顺序如下
+    **_斜体加粗体_**
+2.标题(Headers)
+    with a hash mark (#)
+    #的数目表示标题的粗细，总共有6种尺寸。
+    example:
+#标题
+##标题
+###标题
+####标题
+#####标题
+######标题
+3.链接(Links)
+There are two different link types in Markdown, but both of them render the exact same way. The first link style is called an inline link. To create an inline link, you wrap the link text in brackets ( [ ] ), and then you wrap the link in parenthesis ( ( ) ). For example, to create a hyperlink to www.github.com, with a link text that says, Visit GitHub!, you'd write this in Markdown:
+[Visit GitHub!](www.github.com).
+
+The other link type is called a reference link. As the name implies, the link is actually a reference to another place in the document. Here's an example of what we mean:
+
+     Here's [a link to something else][another place].
+     Here's [yet another link][another-link].
+     And now back to [the first link][another place].
+
+     [another place]: www.github.com
+     [another-link]: www.google.com
+
+4.图片(Images)
+If you know how to create links in Markdown, you can create images, too. The syntax is nearly the same.
+
+The difference is that an image is prefaced with an exclamation point ( ! ), followed by the same two brackets, and a pair of parentheses containing the image URL. 
+
+![A representation of Octdrey Catburn](http://octodex.github.com/images/octdrey-catburn.jpg)
+
+
+For a reference image, you'll follow the same pattern as a reference link. You'll precede the Markdown with an exclamation point, then provide two brackets for the alt text, and then two more for the image tag. At the bottom of your Markdown page, you'll define an image for the tag.
+
+
+![The first father][First Father]
+
+![The second first father][Second Father]
+
+[First Father]:http://octodex.github.com/images/founding-father.jpg
+
+[Second Father]:http://octodex.github.com/images/foundingfather_v2.png
+
+
+5.引用(Blockquotes)
+To create a block quote, all you have to do is preface a line with the "greater than" caret (>).
+You can also place a caret character on each line of the quote. This is particularly useful if your quote spans multiple paragraphs. For example:
+
+> His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.
+>
+> —Of whom are you speaking? Stephen asked at length.
+>
+> Cranly did not answer.
+
+6.列表(Lists)
+There are two types of lists in the known universe: unordered and ordered. That's a fancy way of saying that there are lists with bullet points, and lists with numbers.
+
+To create an unordered list, you'll want to preface each item in the list with an asterisk ( * )
+
+
+An ordered list is prefaced with numbers, instead of asterisks.
+
+
+NOTE:care about space
+注意空格
+
+
+
+Occasionally, you might find the need to make a list with more depth, or, to nest one list within another. Have no fear, because the Markdown syntax is exactly the same. All you have to do is to remember to indent each asterisk one space more than the preceding item.
+分级菜单只需要在前面多增加一个空格即可
+
+While you could continue to indent and add sub-lists indefinitely, it's usually a good idea to stop after three levels; otherwise, your text becomes a mess.
+
+7.段落(Paragraphs)
+If you forcefully insert a new line, you end up breaking the togetherness:
+
+Do I contradict myself?
+
+Very well then I contradict myself,
+
+(I am large, I contain multitudes.)
+This is what's known as a hard break; what our poetry asks for is a soft break. You can accomplish this by inserting two spaces after each new line. This is not possible to see, since spaces are invisible, but it'd look something like this:
+
+Do I contradict myself?··
+Very well then I contradict myself,··
+(I am large, I contain multitudes.)
+Each dot ( · ) represents a space on the keyboard.
+
+
