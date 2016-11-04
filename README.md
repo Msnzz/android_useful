@@ -12,3 +12,5 @@ Activity相关的工具类：
 [ActivityUtil.java](https://github.com/nesger/android_useful/blob/master/util/ActivityUtil.java)  
 尺寸相关的工具类：  
 [DisplayUtil.java](https://github.com/nesger/android_useful/blob/master/util/DisplayUtil.java)  
+ViewHolder模式超简洁写法：
+[ViewHolder模式超简洁写法](https://github.com/nesger/android_useful/blob/master/util/ViewHolder.java)
