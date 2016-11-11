@@ -7,10 +7,10 @@
     各个分辨率直接的换算比例为_ldpi:mdpi:hdpi:xhdpi:xxhdpi=3:4:6:8:12_  
     换算比例可以通过context.getResources().getDisplayMetrics().density获得。  
 
-工具类:
-    [util](https://github.com/nesger/android_useful/tree/master/util)  
-Activity相关的工具类：  
-    [ActivityUtil.java](https://github.com/nesger/android_useful/blob/master/util/ActivityUtil.java)  
+工具类:  
+[util](https://github.com/nesger/android_useful/tree/master/util)  
+Activity相关的工具类： 
+[ActivityUtil.java](https://github.com/nesger/android_useful/blob/master/util/ActivityUtil.java)  
 尺寸相关的工具类：  
     [DisplayUtil.java](https://github.com/nesger/android_useful/blob/master/util/DisplayUtil.java)  
 ViewHolder模式超简洁写法：  
