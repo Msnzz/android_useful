@@ -23,3 +23,6 @@ ViewHolder模式超简洁写法：
     [ViewHolder模式超简洁写法](https://github.com/nesger/android_useful/blob/master/util/ViewHolder.java)  
 单例模式4种写法：  
     [单例模式4种写法](https://github.com/nesger/android_useful/tree/master/singleton)
+
+get method caller stack
+StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace()
